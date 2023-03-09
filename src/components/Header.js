@@ -19,19 +19,19 @@ const Header = () => {
             <label for="check" className="menu-icon"><i className="fa-solid fa-bars"></i></label>
             <ul className="navigation flex">
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="/home">Home</a>
                 </li>
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a href="/skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#project">Projects</a>
+                    <a href="/projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="/about-me">About</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
                 
             </ul>

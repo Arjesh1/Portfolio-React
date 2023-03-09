@@ -5,6 +5,53 @@ const Hero = () => {
   return (
     <>
 
+<section className="section2"id="skills">
+            <div className="info-container flex">
+                <div className="info-lists flex">
+                    <div className="info-content flex">
+                        <div className="icon-container flex">
+                            <i className="fa-solid fa-ribbon"></i>
+                        </div>
+                        <span>
+                            <h5>IT</h5>
+                            <p>Graduate</p>
+                        </span>
+                    </div>
+
+                    <div className="info-divider">
+
+                    </div>
+
+                    <div className="info-content flex">
+                        <div className="icon-container flex">
+                            <i className="fa-solid fa-diagram-project"></i>
+                        </div>
+                        <span>
+                            <h5>5+ Projects</h5>
+                            <p>Completed</p>
+                        </span>
+                    </div>
+
+                    <div className="info-divider">
+                        
+                    </div>
+
+                    <div className="info-content flex">
+                        <div className="icon-container flex">
+                            <i className="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <span>
+                            <h5>1 Yrs</h5>
+                            <p>Coding</p>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+         </section>
+
     {/* <!-- hero section --> */} 
 <section className="section1 grid" id="home">
   <div className="left flex">

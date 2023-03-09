@@ -2,11 +2,14 @@ import './App.css';
 import './style.css'
 import  Header  from "./components/Header";
 import  Hero  from "./components/Hero";
-import  Banner  from "./components/Banner";
+import  Skills  from "./components/Skills";
 import  Project  from "./components/Project";
 import  AboutMe  from "./components/AboutMe";
 import  Contact  from "./components/Contact";
 import  Footer  from "./components/Footer";
+import {Routes, Route} from  "react-router-dom"
+
+
 
 
 
@@ -25,17 +28,16 @@ function App() {
 
 
         <Header/>
-        
-        <Hero/>
 
-         <Banner/>
-
-         <Project/>
-         
-         <AboutMe/>
-        
-        <Contact/>
-         
+        <Routes>
+            <Route path='/home' element={<Hero/>}/> 
+            <Route path='skills' element={<Skills/>}/> 
+            <Route path='projects' element={<Project/>}/> 
+            <Route path='about-me' element={<AboutMe/>}/> 
+            <Route path='contact' element={<Contact/>}/>
+            
+            
+        </Routes>
          <Footer/>
          
 
